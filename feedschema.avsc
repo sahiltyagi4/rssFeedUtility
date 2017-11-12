@@ -1,0 +1,36 @@
+{
+	"namespace":"com.feedutil.schema",
+	"type":"record",
+	"doc":"This is the schema of the rss feed objects ingested and dumped into kafka",
+	"name":"FeedData",
+	"fields":[
+
+			{"name": "RSSFeed", "type": ["null", "string"], "default": null},
+
+			{"name": "Title", "type": ["null", "string"], "default": null},
+
+			{"name": "ArticleLink", "type": ["null", "string"], "default": null},
+
+			{"name": "Language", "type": ["null", "string"], "default": null},		
+
+			{"name": "Description", "type": ["null", "string"], "default": null},
+
+			{"name": "Author", "type": ["null", "string"], "default": null},
+
+			{"name": "PublishedDate", "type": ["null", "long"], "default": null},
+
+			{"name": "UpdatedDate", "type": ["null", "long"], "default": null},
+
+			{"name": "LinkHref", "type": ["null", "string"], "default": null},
+
+			{"name": "LinkTitle", "type": ["null", "string"], "default": null},
+
+			{"name": "ContentType", "type": ["null", "string"], "default": null},
+
+			{"name": "ContentValue", "type": ["null", "string"], "default": null},
+
+			{"name": "Categories", "type": ["null", "string"], "default": null},
+
+			{"name": "Thumbnail", "type": ["null", "string"], "default": null}
+	]
+}
